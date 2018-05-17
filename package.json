@@ -4,7 +4,6 @@
   "description": "Lightweight and real-time data functional stream programming framework like event-stream, written in ES6 using async await with multi-threading support",
   "main": "lib/index.js",
   "directories": {
-    "bin": "bin",
     "lib": "lib",
     "doc": "docs",
     "example": "samples"
@@ -72,6 +71,7 @@
     "through2": "^2.0.3"
   },
   "dependencies": {
+    "minimatch": "^3.0.4",
     "papaparse": "^4.3.7",
     "scramjet-core": "^4.11.1"
   }
